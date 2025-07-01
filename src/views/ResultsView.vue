@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       <div class="flex justify-between items-center h-16">
         <a href="/" class="justify-self-start">
-          <img src="../assets/images/logo_black.svg" alt="Motorcity" class="h-6 w-auto" />
+          <img src="../assets/images/icons/logo_black.svg" alt="Motorcity" class="h-6 w-auto" />
         </a>
         <nav class="hidden md:flex justify-center gap-10 font-medium">
           <a href="#" class="text-gray-900 hover:text-primary-600">Inicio</a>
@@ -84,7 +84,7 @@
             class="absolute top-4 right-4 w-7 h-7 rounded-full grid place-items-center"
           >
             <img
-              src="../assets/images/PurpleArrow.svg"
+              src="../assets/images/icons/PurpleArrow.svg"
               class="w-full rotate-90"
             />
           </button>

@@ -48,7 +48,7 @@ import CarouselHome from "./CarouselHome.vue";
 .background_styled {
   background:
     linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%),
-    url("../../assets/images/section_3.png");
+    url("../assets/images/section_3.png");
   background-size: cover;
   background-position: center;
 }

@@ -47,7 +47,7 @@
           />
           <PromoCard
             text="Bonos de matrícula con un 40% Off"
-            icon-src="../../assets/images/home_ico.svg"
+            icon-src="../assets/images/icons/home_ico.svg"
             :rotation-angle="275"
           />
         </div>
@@ -110,7 +110,7 @@
 </template>
 
 <script setup lang="ts">
-import PromoCard from "../components/home/PromoCard.vue";
+import PromoCard from "../components/PromoCard.vue";
 import { useRouter } from "vue-router";
 
 const router = useRouter();

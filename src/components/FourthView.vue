@@ -22,12 +22,12 @@
       <article class="flex flex-col gap-10 text-black items-start">
         <div class="item-card flex flex-col gap-5 relative">
           <img
-            src="../../assets/images/icon_bw_home.svg"
+            src="../assets/images/icons/icon_bw_home.svg"
             alt="icono"
             class="w-[60px]"
           />
           <img
-            src="../../assets/images/PurpleArrow.svg"
+            src="../assets/images/icons/PurpleArrow.svg"
             alt="arrow"
             class="purple-arrow"
           />
@@ -42,12 +42,12 @@
 
         <div class="flex flex-col gap-5 relative">
           <img
-            src="../../assets/images/icon_bw_home.svg"
+            src="../assets/images/icons/icon_bw_home.svg"
             alt="icono"
             class="w-[60px]"
           />
           <img
-            src="../../assets/images/PurpleArrow.svg"
+            src="../assets/images/icons/PurpleArrow.svg"
             alt="arrow"
             class="purple-arrow"
           />
@@ -88,11 +88,11 @@
             class="cards w-full lg:w-[45%] max-w-[560px] relative text-black"
           >
             <img
-              src="../../assets/images/PurpleArrow.svg"
+              src="../assets/images/icons/PurpleArrow.svg"
               class="purple-arrow"
             />
             <img
-              src="../../assets/images/icon_bw_home.svg"
+              src="../assets/images/icons/icon_bw_home.svg"
               class="w-16 mb-6 ml-8"
             />
             <h3 class="text-[21px] font-medium mb-6 text-left">
@@ -107,11 +107,11 @@
             class="cards w-full lg:w-[45%] max-w-[560px] relative text-black"
           >
             <img
-              src="../../assets/images/PurpleArrow.svg"
+              src="../assets/images/icons/PurpleArrow.svg"
               class="purple-arrow"
             />
             <img
-              src="../../assets/images/icon_bw_home.svg"
+              src="../assets/images/icons/icon_bw_home.svg"
               class="w-16 mb-6 ml-8"
             />
             <h3 class="text-[21px] font-medium mb-6 text-left">
@@ -135,7 +135,7 @@
   aspect-ratio: 393/638;
   background:
     linear-gradient(190deg, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.6) 60%),
-    url("../../assets/images/home_4.png") center / cover no-repeat;
+    url("../assets/images/home_4.png") center / cover no-repeat;
   overflow: hidden;
 }
 
@@ -148,7 +148,7 @@
 }
 @media (min-width: 1024px) {
   .cards {
-    background-image: url("../../assets/images/card_white_2.png");
+    background-image: url("../assets/images/card_white_2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

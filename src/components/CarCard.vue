@@ -62,6 +62,7 @@
 
       <button
         class="lg:ml-auto lg:ml-0 bg-[#6207BD] hover:bg-[#5206a0] text-white rounded-full text-sm font-semibold px-6 py-2 flex items-center gap-2"
+        @click="actionCall"
       >
         ¡Lo quiero!
         <img src="../assets/images/results/arrow_solid.svg" class="w-3" />
@@ -80,6 +81,9 @@
 </template>
 
 <script setup lang="ts">
+import { useRouter } from "vue-router";
+const router = useRouter();
+
 defineProps<{
   img: string;
   title: string;
@@ -90,4 +94,9 @@ defineProps<{
   perks: string[];
   tag: string;
 }>();
+
+const actionCall = () => {
+  router.push({ name: "form" });
+};
+
 </script>

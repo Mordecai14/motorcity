@@ -27,7 +27,7 @@ const boxSize = computed(() =>
       class="purple-arrow absolute z-10 flex md:h-14 h-8 md:w-14 w-8 items-center justify-center rounded-full bg-[#6207BD] text-white"
       :style="{ '--arrow-rotation': `${props.rotationAngle}deg` }"
     >
-      <img src="../../assets/images/PurpleArrow.svg" alt="Purple arrow" />
+      <img src="../assets/images/icons/PurpleArrow.svg" alt="Purple arrow" />
     </div>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const boxSize = computed(() =>
           <div class="flex h-24 w-24 items-center justify-center">
             <img
               v-if="props.iconSrc"
-              src="../../assets/images/home_ico1.svg"
+              src="../assets/images/icons/home_ico1.svg"
               alt="icon"
               class="h-24 w-24 self-left ml-20"
             />

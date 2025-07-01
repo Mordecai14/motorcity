@@ -19,7 +19,7 @@ const logoAction = () => {
       class="header relative z-10 flex lg:justify-start justify-center items-center lg:px-10 lg:py-6 mx-auto max-w-7xl lg:mt-6"
     >
       <img
-        src="../../assets/images/logo.svg"
+        src="../assets/images/logo.svg"
         alt="logo"
         @click="logoAction"
         class="md:w-auto w-[55vw]"
@@ -56,7 +56,7 @@ const logoAction = () => {
         />
         <PromoCard
           text="Bonos de matrícula con un 40% Off"
-          icon-src="../../assets/images/home_ico.svg"
+          icon-src="../assets/images/icons/home_ico.svg"
           :rotation-angle="275"
         />
       </div>
@@ -66,7 +66,7 @@ const logoAction = () => {
 
 <style scoped>
 .banner {
-  background-image: url("../../assets/images/banner.png");
+  background-image: url("../assets/images/banner.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

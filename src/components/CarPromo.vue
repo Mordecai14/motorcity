@@ -73,6 +73,7 @@
 
       <button
         class="mt-3 self-center bg-[#6207BD] hover:bg-[#5406a7] text-white text-[16px] font-semibold rounded-full px-15 py-1.5"
+        @click="actionCall"
       >
         ¡Lo quiero!
         <img
@@ -94,12 +95,19 @@
 </template>
 
 <script setup lang="ts">
+import { useRouter } from "vue-router";
+const router = useRouter();
+
 defineProps<{
   imgSrc: string;
   title: string;
   tags: string[];
   label: string;
 }>();
+
+const actionCall = () => {
+  router.push({ name: "form" });
+};
 </script>
 
 <style scoped>

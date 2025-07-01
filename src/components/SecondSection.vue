@@ -38,7 +38,7 @@ const actionCall = () => {
     <!-- mobile -->
     <div class="lg:hidden md:mt-[91px] mt-[22px] text-black!">
       <img
-        src="../../assets/images/home_1.png"
+        src="../assets/images/home_1.png"
         alt="logo"
         class="lg:w-auto w-[100vw] px-7"
       />
@@ -47,7 +47,7 @@ const actionCall = () => {
           <b class="text-[40px]!">5.000K+</b> <br />
           Clientes ya han conseguido el auto de sus sueños
         </p>
-        <img src="../../assets/images/home_2.png" alt="logo" class="w-[50%]" />
+        <img src="../assets/images/home_2.png" alt="logo" class="w-[50%]" />
       </div>
       <p class="self-stretch text-left text-[35px] px-7 mt-[33px]">
         Somos socios de las marcas más reconocidas
@@ -84,19 +84,19 @@ const actionCall = () => {
       <div
         class="flex lg:flex-wrap lg:gap-10 justify-center xl:flex-nowrap xl:gap-[60px]"
       >
-        <img src="../../assets/images/home_2.png" alt="logo" class="w-[50%]" />
-        <img src="../../assets/images/home_1.png" alt="logo" class="w-[50%]" />
+        <img src="../assets/images/home_2.png" alt="logo" class="w-[50%]" />
+        <img src="../assets/images/home_1.png" alt="logo" class="w-[50%]" />
       </div>
     </div>
     <div
       class="flex flex-wrap items-center justify-center gap-4 px-7 mt-[33px] lg:flex lg:justify-between w-full lg:px-[110px] lg:mt-[91px]"
     >
-      <img src="../../assets/images/marcas/mazda.png" alt="mazda" />
-      <img src="../../assets/images/marcas/nissan.png" alt="nissan" />
-      <img src="../../assets/images/marcas/bmw.png" alt="bmw" />
-      <img src="../../assets/images/marcas/ford.png" alt="ford" />
-      <img src="../../assets/images/marcas/mazda.png" alt="mazda" />
-      <img src="../../assets/images/marcas/nissan.png" alt="nissan" />
+      <img src="../assets/images/marcas/mazda.png" alt="mazda" />
+      <img src="../assets/images/marcas/nissan.png" alt="nissan" />
+      <img src="../assets/images/marcas/bmw.png" alt="bmw" />
+      <img src="../assets/images/marcas/ford.png" alt="ford" />
+      <img src="../assets/images/marcas/mazda.png" alt="mazda" />
+      <img src="../assets/images/marcas/nissan.png" alt="nissan" />
     </div>
 
     <section>
@@ -111,7 +111,7 @@ const actionCall = () => {
         <div class="w-full mt-8 lg:mt-0 lg:w-3/5 flex flex-col justify-center">
           <div class="block lg:hidden flex flex-col items-start gap-4 px-7">
             <img
-              src="../../assets/images/home_ico.svg"
+              src="../assets/images/icons/home_ico.svg"
               alt="icon"
               class="pl-0"
             />
@@ -134,7 +134,7 @@ const actionCall = () => {
             <div
               class="flex flex-col items-start justify-start text-left gap-4 pt-[70px] lg:px-[50px] xl:p-[70px] md:"
             >
-              <img src="../../assets/images/home_ico.svg" alt="icon" />
+              <img src="../assets/images/icons/home_ico.svg" alt="icon" />
               <p class="text-black! lg:text-[22px] xl:text-[28px]">
                 ¿Qué es Fast Motorcity?
               </p>
@@ -155,7 +155,7 @@ const actionCall = () => {
             @click="actionCall"
           >
             DESCUBRIR MI AUTO
-            <img src="../../assets/images/simple_arrow.svg" alt="icon" />
+            <img src="../assets/images/icons/simple_arrow.svg" alt="icon" />
           </button>
         </div>
         <div
@@ -189,7 +189,7 @@ const actionCall = () => {
             @click="actionCall"
           >
             DESCUBRIR MI AUTO
-            <img src="../../assets/images/simple_arrow.svg" alt="icon" />
+            <img src="../assets/images/icons/simple_arrow.svg" alt="icon" />
           </button>
         </div>
       </div>
@@ -211,13 +211,13 @@ const actionCall = () => {
   align-items: center;
 }
 .card_img_3 {
-  background-image: url("../../assets/images/home_3.png");
+  background-image: url("../assets/images/home_3.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 .card_white {
-  background-image: url("../../assets/images/bg.png");
+  background-image: url("../assets/images/bg.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

@@ -68,10 +68,10 @@
 
 <script setup>
 import { RouterLink, RouterView, useRoute, useRouter } from "vue-router";
-import FirstSection from "../components/home/FirstSection.vue";
-import SecondSection from "../components/home/SecondSection.vue";
-import ThirdSection from "../components/home/ThirdSection.vue";
-import FourthView from "@/components/home/FourthView.vue";
+import FirstSection from "../components/FirstSection.vue";
+import SecondSection from "../components/SecondSection.vue";
+import ThirdSection from "../components/ThirdSection.vue";
+import FourthView from "@/components/FourthView.vue";
 
 const router = useRouter();
 const route = useRoute();
